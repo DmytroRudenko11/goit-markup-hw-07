@@ -1,0 +1,46 @@
+// Utils
+
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/default";
+
+
+// Components
+
+@import "./components/base";
+@import "./components/logo";
+
+// Layouts__Header
+
+@import "./components/layouts/header";
+
+//  studio__Hero
+
+@import "./components/layouts/studio-page/hero";
+
+// studio_advantage 
+
+@import "./components/layouts/studio-page/advantage";
+
+// studio_job
+
+@import "./components/layouts/studio-page/job";
+
+//  studio_team
+
+@import "./components/layouts/studio-page/team";
+
+// studio_clients
+
+@import "./components/layouts/studio-page/clients";
+
+
+// layouts_footer
+
+@import "./components/layouts/footer";
+
+// layouts__modal
+
+@import "./components/layouts/modal";
+
+

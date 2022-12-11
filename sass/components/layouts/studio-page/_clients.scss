@@ -1,0 +1,31 @@
+.clients__list {
+  display: flex;
+  gap: 30px;
+}
+
+.clients__link {
+  @include centeredFlex ();
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  text-decoration: none;
+
+  transition: border $trans-standart;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+.clients__icon {
+  fill: #afb1b8;
+  transition: fill $trans-standart;
+
+  .clients__link:hover &,
+  .clients__link:focus & {
+    fill: $accent-color;
+  }
+}
